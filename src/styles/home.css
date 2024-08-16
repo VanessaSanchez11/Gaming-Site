@@ -1,0 +1,25 @@
+.home {
+  background-image: url("../assets/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.overlay {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  color: var(--main-yellow);
+  font-size: 4em;
+  text-align: left;
+  font-weight: 900;
+  font-family: var(--inter-font);
+  width: 80%;
+  margin-left: 80px;
+}

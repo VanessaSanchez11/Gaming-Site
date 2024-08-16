@@ -1,0 +1,30 @@
+.sidebar {
+  width: 7%;
+  background-color: #242323;
+  height: 100vh; /* Altura completa de la ventana */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 120px 0;
+}
+
+.sidebar ul li img {
+  width: 30px;
+  height: 30px;
+}
+.sidebar-icon {
+  color: white; /* Cambia el color de los iconos a blanco */
+  font-size: 1.8em; /* Aumenta el tamaño de los iconos */
+}

@@ -1,0 +1,31 @@
+:root {
+  --main-yellow: #eed232;
+  --gaming-font: "SpaceAge", sans-serif;
+  --inter-font: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "SpaceAge";
+  src: url("./assets/fonts/spaceAge.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+}
+.sidebar-content {
+  width: 7%;
+}
+.main-content {
+  width: 93%;
+}
+.container-content {
+  padding: 40px 60px;
+  background: #0e0e0e;
+}

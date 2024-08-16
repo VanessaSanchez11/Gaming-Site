@@ -1,0 +1,22 @@
+.header-menu {
+  position: absolute;
+  width: calc(100% - 60px);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header-menu nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu a {
+  color: var(--main-yellow);
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: var(--gaming-font);
+  margin-right: 1.5rem;
+}
